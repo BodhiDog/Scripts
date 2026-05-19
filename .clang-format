@@ -86,3 +86,9 @@ UseTab: Never
 SpacesInLineCommentPrefix:
   Minimum: 1
   Maximum: -1  # -1 表示不限制最大空格数
+
+# 在尾部注释前添加 1 个空格
+SpacesBeforeTrailingComments: 1
+
+# 自动对齐连续的尾部注释
+AlignTrailingComments: true
