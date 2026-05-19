@@ -81,3 +81,8 @@ SpacesInSquareBrackets: false
 Standard: c++11
 TabWidth: 4
 UseTab: Never
+
+# 确保行注释符 // 后面至少保留 1 个空格
+SpacesInLineCommentPrefix:
+  Minimum: 1
+  Maximum: -1  # -1 表示不限制最大空格数
